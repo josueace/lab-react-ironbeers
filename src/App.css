@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+.images{
+  width:40vw;
+  height:30vh;
+}
+
+.card{
+  margin:0 auto;
+  width:40vw;
+}
+.link{
+  margin:0 auto;
+}
+
+.beerList{
+  display:flex;
+  flex-direction: column;
+}
+.beerCard{
+  display:flex;
+
+}
+.formy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formy input {
+  width:40vw;
+  height:4vh;
+  border-radius:12px;
+  border:1px solid lightgray;
+}
+
+textarea{
+  width:40vw;
+  height:8vh;
+  border:1px solid lightgray
+}
+
+.formy input[type=submit] {
+  width:30vw;
+  height:4vh;
+  border-radius:12px;
+  border:1px solid #007bff;
+  background-color: #007bff;
+  color:white;
+}
+.grey{
+  color:grey;
+}
